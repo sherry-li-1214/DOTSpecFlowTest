@@ -2,7 +2,7 @@
 
 Contents:
 
-1. Purpose of UI and API Automation Framework.
+1. Purpose of UI  Automation Framework.
 2. Overview
 3. Framework structure
 4. Packages used
@@ -24,18 +24,16 @@ Test Library – used to write the BDD-Feature, Step Definitions, Utilities, Cor
 ## Framework structure:
 
 
-### 1. ApiLibrary
-All the API related class and libraries to run httpRequest and httpResponse .
+### 1. SeleniumSpecFlow  Folder:
 
-### 2. SeleniumSpecFlow Folder:
-
-All the feature files , step definition files,hooks and utilities (Driver Factory and Object Factory,Reporting util) are kept under the Test folder. These tests are described here in a simple English language called as Gherkin language.
+All the feature files ,test data file, step definition files,hooks and utilities (Driver Factory and Object Factory,Reporting util) are kept under the Test folder. These tests are described here in a simple English language called as Gherkin language.
 Test Results and screenshots are also kept here.
 
 Folders inside:
 #### Features
 * API Features/ReqRes.feature is API tes case
 * Web Features/NabCallBackProcess.feature is for Web bases UI Test
+#### testData
 #### Hooks
 #### Steps
 #### TestResults
@@ -45,7 +43,7 @@ Files:
 ####AppSettings.json: The configuration files for the testing. It include Home Url(nab.com.au) and API Test Url.
 
 
-### 3. WebLibrary:
+### 2. WebLibrary:
 
 This folder contains the pageojbect class and file for the tests which helps to organize all page elements.
 
