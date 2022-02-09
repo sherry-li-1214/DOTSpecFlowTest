@@ -24,7 +24,7 @@ Test Library – used to write the BDD-Feature, Step Definitions, Utilities, Cor
 ## Framework structure:
 
 
-### 1. SeleniumSpecFlow  Folder:
+### 1. SpecFlow_Web/SeleniumSpecFlow  Folder:
 
 All the feature files ,test data file, step definition files,hooks and utilities (Driver Factory and Object Factory,Reporting util) are kept under the Test folder. These tests are described here in a simple English language called as Gherkin language.
 Test Results and screenshots are also kept here.
@@ -33,7 +33,8 @@ Folders inside:
 #### Features
 * API Features/ReqRes.feature is API tes case
 * Web Features/NabCallBackProcess.feature is for Web bases UI Test
-#### testData
+#### testData to keep excel file data
+#### entity folder to keep the contact object  
 #### Hooks
 #### Steps
 #### TestResults
