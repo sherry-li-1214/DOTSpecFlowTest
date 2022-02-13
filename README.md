@@ -1,4 +1,4 @@
-# UI and API AUTOMATION USING BDD FRAMEWORK
+# UI  AUTOMATION USING BDD FRAMEWORK
 
 Contents:
 
@@ -17,7 +17,6 @@ The purpose for this automation framework is to serve a technical implementation
 To automate UI and API this framework uses SpecFlow which is a testing framework that supports Behaviour Driven Development (BDD).
 
 There are three libraries created which are:
-Api Library – used to write the API functional and helper logic
 Web Library – used to write the API functional and helper logic
 Test Library – used to write the BDD-Feature, Step Definitions, Utilities, Core framework and Reporting
 
