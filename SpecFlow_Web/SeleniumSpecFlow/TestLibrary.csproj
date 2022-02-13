@@ -10,8 +10,7 @@
 
   <ItemGroup>
     <Compile Remove="Utilities\Reporter.cs" />
-    <Compile Remove="Features\API Feature\**" />
-    <Compile Remove="Steps\ApiTestSteps.cs" />
+     <Compile Remove="Steps\ApiTestSteps.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -41,32 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ApiLibrary\ApiLibrary.csproj" />
     <ProjectReference Include="..\WebLibrary\WebLibrary.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <SpecFlowFeatureFiles Remove="Features\API Feature\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Remove="Features\API Feature\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Features\API Feature\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Features\API Feature\ReqRes.feature" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckBuild Remove="Features\API Feature\ReqRes.feature.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <CustomAdditionalCompileInputs Remove="Features\API Feature\ReqRes.feature.cs" />
-  </ItemGroup>
-
-</Project>
+  </Project>
