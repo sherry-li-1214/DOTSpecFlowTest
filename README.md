@@ -14,7 +14,7 @@ The purpose for this automation framework is to serve a technical implementation
 
 ## Overview:
 
-To automate UI and API this framework uses SpecFlow which is a testing framework that supports Behaviour Driven Development (BDD).
+To automate UI , this framework uses SpecFlow which is a testing framework that supports Behaviour Driven Development (BDD).
 
 There are three libraries created which are:
 Web Library – used to write the API functional and helper logic
