@@ -31,7 +31,6 @@ Test Results and screenshots are also kept here.
 
 Folders inside:
 #### Features
-* API Features/ReqRes.feature is API tes case
 * Web Features/NabCallBackProcess.feature is for Web bases UI Test
 #### testData to keep excel file data
 #### entity folder to keep the contact object  
